@@ -18,3 +18,11 @@
 .Header-menu {
   text-align: right;
 }
+
+.Header-subMenu{
+  display: flex;
+}
+
+.Header-subMenu .Header-link{
+  flex: 1;
+}

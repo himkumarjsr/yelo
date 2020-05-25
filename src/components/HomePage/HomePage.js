@@ -53,7 +53,16 @@ export class HomePage extends Component {
           meta={head.meta}
         />
         <Header />
-        <h3>Latest Posts</h3>
+        {/* <h3>Latest Posts</h3> */}
+        <ul className="Posts">
+          <li className="Posts-post Header-color">
+            <span>Name</span>
+            <span>Corporate Code</span>
+            <span>Company Type</span>
+            <span>Status</span>
+            <span>Branch</span>
+          </li>
+        </ul>
         {isEmpty
           ? (isFetching ? <h3>Loading...</h3> : <h4 className="HomePage-message">Empty :(</h4>)
           : <div style={{ opacity: isFetching ? 0.5 : 1 }}>

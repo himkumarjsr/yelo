@@ -1,5 +1,26 @@
 @import '../../css/variables.css';
 
 .HomePage-message {
-  color: $gray;
+  color: gray;
+}
+
+.Posts {
+  padding-left: 0;
+}
+
+.Posts-post {
+  list-style: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.Header-color{
+  background-color: lightblue;
+}
+li{
+  display: flex;
+}
+
+li span{
+  flex: 1;
 }

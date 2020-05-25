@@ -26,7 +26,7 @@ export const receivePost = json => ({
 });
 
 export const fetchPosts = () => (
-  dispatch => api('https://jsonplaceholder.typicode.com/posts')
+  dispatch => api('http://localhost:3001/employers')
     .then(
       json => dispatch(receivePosts(json)),
     )

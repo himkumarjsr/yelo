@@ -9,3 +9,11 @@
   text-transform: capitalize;
   margin-bottom: 20px;
 }
+
+li{
+  display: flex;
+}
+
+li span{
+  flex: 1;
+}
